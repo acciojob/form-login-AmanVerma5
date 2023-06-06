@@ -7,7 +7,7 @@ function getFormvalue() {
   const lastName = form.lname.value;
   
   // Display an alert with the first and last name
-  alert("First Name: " + firstName + "\nLast Name: " + lastName);
+  window.alert("First Name: " + firstName + "\nLast Name: " + lastName);
   
   // Prevent the form from submitting
   return false;
